@@ -1,6 +1,6 @@
-# MYTrafficHack2017 - Using Mapillary in your Hacks
+# Hackathon Digitaal Stelsel Omgevingswet
 
-The MYTrafficHack2017 event will focus on solving such problems as traffic congestions monitoring, identifying roadway infrastructure needs, and emergency traffic management using the World Bank's Open Traffic dataset. Much of the data involved will include GPS coordinates and time stamps, as well as estimates of speed, but sometimes this isn't enough to paint the whole picture. In other cases, OpenStreetMap is used to give context to the city that the traffic exists within, but OSM can also be lacking in accuracy and completion. This is where Mapillary can help.
+The Hackathon Digitaal Stelsel Omgevingswet event poses challenging questions to participants, including how to offer real time digital information about the city and how to find appropriate locations for initiatives. The challenge also goes to the drawing board for questions about visualization of the effects of initiatives and solving such challenges as instance traffic, demographics, or air pollution. Mapillary can be a powerful asset in this challenge, as it can provide a platform for collecting and sharing imagery, a map of Mapillary coverage, an embed-friendly viewer for imagery, vector tiles of imagery coverage and detected traffic sign locations, as well as image detection datasets including vegetation and zebra crosswalk locations.
 
 ## Mapillary prerequisites
 
@@ -16,23 +16,25 @@ One of the easiest ways to use Mapillary in your projects is to embed it using a
 
 We are always thinking about how to use Mapillary in creative ways, and we present to you some of our hack ideas that you can freely commandeer to make this event a success for you. 
 
-To get started, check out Mapillary coverage in and around Kuala Lumpur: https://www.mapillary.com/app/?lat=3.1771211542482547&lng=101.72597628336473&z=10&focus=map
+To get started, check out Mapillary coverage in and around Amsterdam: https://www.mapillary.com/app/?lat=52.35601833567023&lng=4.925394378801599&z=11.481795519856396&focus=map&mapStyle=esri
 
-![screenshotof KL coverage](https://mapillary-hacks.github.io/hackathon/malaysia/kuala_lumpur.PNG)
+![screenshotof AMS coverage](https://github.com/mapillary/mapillary_examples/raw/master/hacks/hackathon/amsterdam/ams.PNG)
 
-https://www.mapillary.com/app/?lat=3.1504259999999675&lng=101.71169199999997&z=17&focus=photo&pKey=pGrIN_0V78my2G4sK4qLRA
+https://www.mapillary.com/map/im/YpNWlVsGn_5lGdnvWZDDtQ
 
-![suria klcc](https://d1cuyjsrcm0gby.cloudfront.net/pGrIN_0V78my2G4sK4qLRA/thumb-2048.jpg)
+![centralams](https://d1cuyjsrcm0gby.cloudfront.net/YpNWlVsGn_5lGdnvWZDDtQ/thumb-2048.jpg)
 
-It's extremely limited to just a few major roads. However, if you take some time to go out and **capture imagery** (guide here: https://help.mapillary.com/hc/en-us/categories/115000239905-Contributing), you can generate more Mapillary material to drive your own ideas, or some ideas we've generated for you.
+It's extremely limited to just a few major roads on the outskirts, and more dense in the city center. If you take some time to go out and **capture imagery** (guide here: https://help.mapillary.com/hc/en-us/categories/115000239905-Contributing), you can generate more Mapillary material to drive your own ideas, or utilize some ideas we've generated for you.
 
 These ideas include:
 
-* **Show photos inside both lowest and highest congestion areas to illustrate visual difference in road shape and size, infrastructure, and other physical attributes--are areas that photos show to contain houses always less congested than areas with apartments? Do 5 lane vs. 4 lane roads make a difference? Do you see sidewalks in congested areas?**
+* **Show photos inside both lowest and highest traffic congestion areas to illustrate visual difference in road shape and size, infrastructure, and other physical attributes--are areas that photos show to contain houses always less congested than areas with apartments? Do 5 lane vs. 4 lane roads make a difference? Do you see sidewalks in congested areas?**
 * **Match high volume traffic against detected street signs in Mapillary, to see if traffic congestion is associated with stop signs, crosswalks, change in speed limits, school zones, or other situations indicated by signs**
 * **Estimate the number of traffic lanes in Mapillary photos, to know if traffic congestion occurs in 2 lanes, 4 or even 5**
 * **Inspect roads for infrastructure problems by matching Mapillary photo locations to traffic hotspots**
 * **Enable users to report of high traffic congestion, infrastructure problems, or traffic incidents: link your app to Mapillary so users can upload photos on the spot that are automatically reconstructed into street level imagery in our viewer**
+* **Show density of urban greenery using the detected vegetation in the `amsterdam_vegetation.geojson` data**
+* **Show locations of zebra crosswalks using the detected locations in the `amsterdam_zebras.geojson` data**
 
 ## Mapillary as a Tool
 
@@ -85,6 +87,7 @@ You can also borrow freely from any of these sample and example projects, many o
 * Add vector tiles to a Mapbox map: https://www.mapillary.com/developer/tiles-documentation/#mapbox-gl-js
 * Measuring growth of Mapillary coverage over time: https://mapillary-hacks.github.io/hackathon/malaysia/here/
 * Comparing photos over time: http://blog.mapillary.com/update/2016/10/21/time-travel.html
+* 
 * Compare different maps in the same location: https://mapillary-hacks.github.io/hackathon/malaysia/compare/
 * Compare Mapillary vector tiles with earthquake incident feeds: https://mapillary-hacks.github.io/hackathon/malaysia/earthquake/jp/
 * Show Mapillary images in the context of city green infrastructure: https://cbeddow.github.io/bsas/
