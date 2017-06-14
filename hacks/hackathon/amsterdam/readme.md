@@ -83,11 +83,12 @@ You can get started with the above capabilities using the following links:
 
 You can also borrow freely from any of these sample and example projects, many of which have code in this repo:
 
+* Mapillary Web AppBuilder Widget: https://github.com/mapillary/Mapillary-WebAppWidget
+* Using Mapillary with ArcGIS Online: http://blog.mapillary.com/product/2017/03/06/mapillary-viewshed-arcgis-online.html
 * MapillaryJS examples: https://github.com/mapillary/mapillary-js#examples
 * Add vector tiles to a Mapbox map: https://www.mapillary.com/developer/tiles-documentation/#mapbox-gl-js
 * Measuring growth of Mapillary coverage over time: https://mapillary-hacks.github.io/hackathon/malaysia/here/
 * Comparing photos over time: http://blog.mapillary.com/update/2016/10/21/time-travel.html
-* 
 * Compare different maps in the same location: https://mapillary-hacks.github.io/hackathon/malaysia/compare/
 * Compare Mapillary vector tiles with earthquake incident feeds: https://mapillary-hacks.github.io/hackathon/malaysia/earthquake/jp/
 * Show Mapillary images in the context of city green infrastructure: https://cbeddow.github.io/bsas/
